@@ -1,0 +1,3 @@
+[selenium-servers]
+192.168.10.59 ansible_ssh_port=2222 ansible_ssh_user=ubuntu ansible_sudo_pass='server'
+

@@ -1,0 +1,10 @@
+---
+- name: New selenium
+  hosts: selenium-servers
+
+  roles: 
+    - { role : SeleniumHQ.selenium }
+  tasks:
+    - selenium:
+        role: hub
+        state: running
